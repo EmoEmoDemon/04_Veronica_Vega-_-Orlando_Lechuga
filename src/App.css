@@ -1,0 +1,205 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1F1F1F;
+  color: #58899A;
+}
+/* logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  max-width: 200px;
+  max-height: 100px;
+}
+/* Barra de busqueda y botón */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #58899A;
+  color: #1F1F1F;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-bar-container {
+  width: 100%;
+}
+
+.search-bar {
+  width: 300px;
+  margin: 0 auto;
+}
+/* show info */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.show-image {
+  display: table-cell;
+  width: 200px; 
+  padding-right: 20px;
+  vertical-align: top;
+}
+
+.show-info {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.show-info h1 {
+  font-size: 50px; 
+  margin-bottom: 10px; 
+  color:#BC9779;
+}
+
+.show-info p {
+  margin-bottom: 5px; 
+  color:#D1D1D1;
+}
+
+.show-info h2 {
+  font-size: 20px; 
+  margin-top: 20px; 
+}
+
+.show-info div {
+  margin-top: 10px; 
+}
+/* Episodios */
+
+.episode-info1 {
+  color: #58899A; 
+}
+
+.episode-info2{
+  color:#BC9779;
+}
+
+.episode-info3{
+  color:#D1D1D1;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #383838;
+}
+
+th {
+  background-color: #383838;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*cast*/
+
+.actor-name {
+  color: #BC9779; 
+}
+
+.character-name {
+  color: #D1D1D1;
+}
+/* Estilos para el componente CatchMov */
+.CatchMov {
+  margin-bottom: 20px;
+}
+
+.CatchMov__link {
+  text-decoration: none;
+  color: #333;
+}
+
+.CatchMov__image {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.CatchMov__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.CatchMov__external {
+  font-size: 14px;
+  color: #888;
+}
+.CatchMov__link:hover .CatchMov__image {
+  transform: scale(1.1);
+}
+
+.CatchMov__link:hover .CatchMov__title {
+  color: #58899A;
+}
+
+.CatchMov__link:hover .CatchMov__external {
+  color: #555;
+}
+
