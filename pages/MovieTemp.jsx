@@ -6,7 +6,7 @@ export const MovieTemp = () => {
   return (
     <div className='series-page-container'>
           <div className='logo-container'>
-        <img src="https://static.tvmaze.com/images/tvm-header-logo.png" />
+        <img src="https://i.imgur.com/4SKRl96.png" />
       </div>
       <div className='series-info-container'>
         <CatchInfoSeries />
