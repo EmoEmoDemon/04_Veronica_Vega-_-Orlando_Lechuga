@@ -131,6 +131,11 @@ body {
 .show-info div {
   margin-top: 10px; 
 }
+table {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
 /* Episodios */
 
 .episode-info1 {
@@ -170,37 +175,37 @@ th {
   margin-bottom: 20px;
 }
 
-.CatchMov__link {
+.CatchMov-link {
   text-decoration: none;
   color: #333;
 }
 
-.CatchMov__image {
+.CatchMov-image {
   width: 100%;
   max-width: 200px;
   margin-bottom: 10px;
   margin-top: 20px;
 }
 
-.CatchMov__title {
+.CatchMov-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.CatchMov__external {
+.CatchMov-external {
   font-size: 14px;
   color: #888;
 }
-.CatchMov__link:hover .CatchMov__image {
+.CatchMov-link:hover .CatchMov-image {
   transform: scale(1.1);
 }
 
-.CatchMov__link:hover .CatchMov__title {
+.CatchMov-link:hover .CatchMov-title {
   color: #58899A;
 }
 
-.CatchMov__link:hover .CatchMov__external {
+.CatchMov-link:hover .CatchMov-external {
   color: #555;
 }
 

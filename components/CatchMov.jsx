@@ -5,11 +5,11 @@ export const CatchMov = ({ show }) => {
 
   return (
     <div className="CatchMov">
-      <Link to={`/series/${showId}`} className="CatchMov__link">
-        <div>{show.image && <img src={show.image.medium} alt={show.name} className="CatchMov__image" />}</div>
+      <Link to={`/series/${showId}`} className="CatchMov-link">
+        <div>{show.image && <img src={show.image.medium} alt={show.name} className="CatchMov-image" />}</div>
         <div>
-          <h2 className="CatchMov__title">{show.name}</h2>
-          <p className="CatchMov__external">{show.externals.thetbdb}</p>
+          <h2 className="CatchMov-title">{show.name}</h2>
+          <p className="CatchMov-external">{show.externals.thetbdb}</p>
         </div>
       </Link>
     </div>
